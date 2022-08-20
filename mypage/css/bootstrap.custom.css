@@ -97,16 +97,17 @@ footer > div > p:nth-child(6) {
 } */
 
     .navbar-brand{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
     }
 
-    /* body > nav > a {
-        font-size: 40px;
-        font-weight: bold;
-    } */
+    .navbar-brand-right{
+        font-size: 10px;
+    }
 
-  .navbar-brand-right{
+
+
+  /* .navbar-brand-right{
     font-size: 13px;
     position: absolute;
     top: 45px;
@@ -115,4 +116,4 @@ footer > div > p:nth-child(6) {
 
 #navbarSupportedContent > ul {
     padding-top: 20px;
-}
+} */
