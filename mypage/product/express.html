@@ -36,11 +36,7 @@
     top: 200px
 }
 
-.btn-group{
-    position: relative;
-    top: 180px;
-    left: 650px;
-}
+
 
 footer {
     position: absolute;
@@ -102,49 +98,50 @@ footer > div > p:nth-child(6) {
   <link rel="stylesheet" type="text/css" href="/mypage/css/bootstrap.custom.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="../simple.html">Kukka</a>
-		<span>| NO REASON FOR FLOWERS</span>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-	  
-		<div class="navbar-collapse justify-content-center" id="navbarSupportedContent">
-		  <ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-			  <a class="nav-link" href="./subscription.html">Subscription</a>
-			</li>
-			<li class="nav-item active">
-			  <a class="nav-link" href="./shop.html">Shop</a>
-			</li>
-			<li class="nav-item active">
-			  <a class="nav-link" href="./express.html">Express</a>
-			</li>
-			<li class="nav-item active">
-			  <a class="nav-link" href="./class.html">Class</a>
-			</li>
-			<li class="nav-item active">
-			  <a class="nav-link" href="./about.html">About</a>
-			</li>
-			<li class="nav-item active">
-			  <a class="nav-link" href="./contents.html">Contents</a>
-			</li>
-			<li class="nav-item active">
-			  <a class="nav-link" href="./partner.html">Partner</a>
-			</li>
-     </ul>
-		</div>
-      <a class="navbar-brand justify-content-end" href="#">
-      <img src="/mypage/img/search1.svg" width="26" height="26" alt="search">
-      </a>
-      <a class="navbar-brand justify-content-end" href="#">
-      <img src="/mypage/img/person.svg" width="26" height="26" alt="person">
-      </a>
-      <a class="navbar-brand justify-content-end" href="#">
-      <img src="/mypage/img/basket.svg" width="26" height="26" alt="baskets">
-      </a>
-
-	  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <div class="container-fluid">
+      <div>
+      <a class="navbar-brand" href="../simple.html">Kukka</a>
+      <span class="navbar-brand-right">| NO REASON FOR FLOWERS</span>
+    </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <!-- <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../simple.html">Home</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="./subscription.html">Subscription</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./express.html">Express</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./class.html">Class</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end">
+        <a class="navbar-brand justify-content-end" href="#">
+          <img src="/mypage/img/search1.svg" width="26" height="26" alt="search">
+        </a>
+        <a class="navbar-brand justify-content-end" href="../login.html">
+          <img src="/mypage/img/person.svg" width="26" height="26" alt="person">
+        </a>
+          <a class="navbar-brand justify-content-end" href="#">
+          <img src="/mypage/img/basket.svg" width="26" height="26" alt="baskets">
+        </a>
+      </div>
+    </div>
+  </nav>  
 
 
 
@@ -157,51 +154,52 @@ footer > div > p:nth-child(6) {
 	  </form>
 
 
-	  <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-        <label class="btn btn-outline-dark" for="btnradio1">꽃다발</label>
-      
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-        <label class="btn btn-outline-dark" for="btnradio2">꽃병</label>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <!-- <div class="card"> -->
-              <a href="#">
-              <img src="/mypage/img/product3.jpg" alt="" class="card-img"/>
-              <p>리미티드 'SUPPORT YOUR DREAM'</p>
-              <p>59,900원</p>
-              </a>   
+    <div class="container">
+      <div class="row">      
+        <div class="row gy-3">
+        <div class="row-fluid">
+          
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-dark" for="btnradio1" >꽃다발</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-dark" for="btnradio2">꽃병</label>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <!-- <div class="card"> -->
-              <a href="#">
-              <img src="/mypage/img/product1.jpg" alt="" class="card-img" />
-              <p>리미티드 'SUPPORT YOUR DREAM'</p>
-              <p>59,900원</p>
-              </a>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <!-- <div class="card"> -->
-              <a href="#">
-              <img src="/mypage/img/product3.jpg" alt="" class="card-img" />
-              <p>리미티드 'SUPPORT YOUR DREAM'</p>
-              <p>59,900원</p>
-              </a>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <!-- <div class="card"> -->
-              <a href="#">
-              <img src="/mypage/img/product1.jpg" alt="" class="card-img" />
-              <p>리미티드 'SUPPORT YOUR DREAM'</p>
-              <p>59,900원</p>
-              </a>
-          </div>
-
-		</div>
-	</div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <!-- <div class="card"> -->
+            <a href="#">
+            <img src="/mypage/img/product3.jpg" alt="" class="card-img"/>
+            <p class='text-dark'>리미티드 'SUPPORT YOUR DREAM'</p>
+            <p class='text-dark'>59,900원</p>
+            </a>   
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <!-- <div class="card"> -->
+            <a href="#">
+            <img src="/mypage/img/product1.jpg" alt="" class="card-img" />
+            <p class='text-dark'>리미티드 'SUPPORT YOUR DREAM'</p>
+            <p class='text-dark'>59,900원</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <!-- <div class="card"> -->
+            <a href="#">
+            <img src="/mypage/img/product3.jpg" alt="" class="card-img" />
+            <p class='text-dark'>리미티드 'SUPPORT YOUR DREAM'</p>
+            <p class='text-dark'>59,900원</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <!-- <div class="card"> -->
+            <a href="#">
+            <img src="/mypage/img/product1.jpg" alt="" class="card-img" />
+            <p class='text-dark'>리미티드 'SUPPORT YOUR DREAM'</p>
+            <p class='text-dark'>59,900원</p>
+            </a>
+        </div>
 
   <footer>
     <div>
